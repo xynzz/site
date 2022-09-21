@@ -1,0 +1,275 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    overflow: hidden;
+}
+body{
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 14px;
+}
+.container{
+    max-width: 1230px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+/* =====Header===== */
+
+.header {
+    background: #000;
+    padding: 32px 0 33px;
+}
+.header__container {
+}
+.header__nav {
+    display: flex;
+    align-items: center;
+}
+.nav {
+    font-size: 24px;
+    line-height: 29px;
+    color: #717171;
+}
+.nav a{
+    color: #717171;
+}
+.nav a:hover{
+    color: #fff;
+    transition: .3s;
+}
+.nav__list {
+    font-size: 24px;
+    display: flex;
+    margin: 0 224px 0 0;
+}
+.nav__item:not(:last-child) {
+    margin: 0 30px 0 0;
+}
+.nav__link {
+}
+.nav__logo {
+    margin: 0 345px 0 0;
+}
+.nav__tel {
+}
+
+/* =====End-Of-Header===== */
+
+/* =====Main===== */
+.main {
+    height: 100%;
+    flex: 1 1 auto;
+}
+
+/* =====iPhone===== */
+.iphone {
+    background: #F5F5F7;
+    text-align: center;
+    padding: 71px 0 40px 0;
+
+}
+.iphone__container{
+    max-width: 951px;
+}
+.iphone__title{
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 77px;
+    color: #490E84;
+    margin: 0 0 40px 0;
+}
+.iphone__img {
+    margin: 0 0 25px 0;
+}
+.iphone__btn {
+    display: inline-block;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+.iphone__btn:hover:hover{
+    background-color: #6d1fc0;
+    transition: .3s;
+}
+.btn {
+    padding: 21px 118px;
+    background: #490E84;
+    border-radius: 30px;
+}
+/* =====End-Of-iPhone===== */
+/* =====New===== */
+.new {
+    padding: 87px 0 150px 0;
+}
+.new__container {
+}
+.new__title {
+    margin: 0 0 48px 0;
+}
+.title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    color: #717171;
+    text-transform: uppercase;
+}
+.new__row{
+    display: flex;
+    align-items: center;
+}
+.new__body {
+    margin: 0 195px 0 0;
+}
+.new__text {
+    font-size: 14px;
+    line-height: 18px;
+    color: #0A0A0A;
+}
+.new__text:not(:last-child){
+    margin: 0 0 30px 0;
+}
+.new__text strong{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 130%;
+    color: #0A0A0A;
+}
+.new__img {
+}
+/* =====End-Of-New===== */
+/* =====Color===== */
+.color {
+}
+.color__container {
+}
+.container {
+}
+.color__title {
+    margin: 0 0 51px 0;
+}
+.color__row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -40px;
+}
+.color__column {
+    padding: 0 40px;
+    flex: 0 1 25%;
+    margin: 0 0 150px 0 ;
+}
+.column__img {
+    margin: 0 0 20px 0;
+}
+.column__text{
+    text-align: center;
+}
+.column__title {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 130%;
+    color: #0A0A0A;
+    margin: 0 0 10px 0;
+}
+.column__subtitle {
+    font-size: 14px;
+    line-height: 130%;
+    color: #0A0A0A;
+}
+/* =====End-Of-Color===== */
+/* =====Form===== */
+.form {
+    padding: 0
+}
+.form__row {
+    display: flex;
+}
+.form__column{
+    flex: 1 1 50%;
+}
+.form__body {
+    min-height: 100%;
+    padding: 137px 0 138px 0;
+    background: #574B63;
+}
+.form__title {
+    color: #fff;
+    margin: 0 0 72px 0;
+}
+.form__contact-form {
+    text-align: center;
+}
+.form__content{
+    margin: 0 0 31px 0;
+}
+.form__input {
+    color: #fff;
+    padding: 0 0 10px;
+    background: none;
+    width: 400px;
+    border-bottom: 1px solid #F5F5F5;
+}
+.form__input::placeholder{
+    color: #fff;
+    opacity: .5 ;
+}
+.form__text {
+    color: #fff;
+    opacity: .5 ;
+    margin: 0 0 33px 0;
+}
+.form__button {
+    padding: 16px 81px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 130%;
+    color: #490E84;
+    background: #FFFFFF;
+    border-radius: 30px;
+}
+.form__button:hover{
+    background-color: #bbbbbb;
+    transition: .3s;
+}
+.btn {
+}
+.form__img {
+}
+/* =====End-Of-Form===== */
+
+/* =====End-Of-Main===== */
+
+/* =====Footer===== */
+
+.footer {
+    background: #000;
+    padding: 51px 0 51px;
+}
+
+.footer__container {
+    display: flex;
+    align-items: center;
+}
+.header__confidentiality {
+    font-size: 14px;
+    line-height: 130%;
+    color: #717171;
+    margin: 0 362px 0 0;
+}
+.footer__logo {
+    margin: 0 345px 0 0;
+}
+.footer__tel {
+    font-size: 24px;
+    line-height: 29px;
+    color: #717171;
+}
+
+.footer a:hover{
+    color: #fff;
+    transition: .3s;
+}
+/* =====End-Of-Footer===== */
